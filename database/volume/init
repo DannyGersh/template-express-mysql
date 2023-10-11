@@ -1,0 +1,4 @@
+# IMPORTANT: make sure EOL lf convention otherwise this does not execute !
+
+mysql -u root -p -e "CREATE DATABASE math";
+mysql --force --batch -u root -p math < /volume/init.sql
